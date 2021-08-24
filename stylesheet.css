@@ -1,0 +1,47 @@
+
+#calculator {
+    flex-direction: column;
+    width: 27%;  
+    margin: auto;
+}
+
+.operator {
+    flex-grow: 0;
+}
+
+#output {
+    text-align: right;
+    background-color: black;
+    font-family: monospace;
+    font-size: 3.9em;
+    color: white;
+}
+
+button:hover {
+    color: deepskyblue;
+}
+button:active {
+    background-color: gray;
+}
+
+button {
+    background-color: lightgray;
+    color: black;
+    border: 1px solid black;
+    font-size: 2.7em;
+    flex-grow: 1;
+    width: 24.5%;
+    justify-content: space-between;
+    height: 2.1em;
+    cursor: pointer;
+
+}
+
+.Row {
+    display: flex;
+}
+
+.operator {
+    color: white;
+    background-color: orange;
+}
